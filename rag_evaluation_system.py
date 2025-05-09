@@ -137,7 +137,7 @@ class RAGEvaluationSystem:
         ]
 
         response = openai.ChatCompletion.create(
-            model="deepseek-coder",
+            model="deepseek-chat",
             messages=messages,
             stream=False
         )
@@ -214,7 +214,7 @@ class RAGEvaluationSystem:
         ]
 
         response = openai.ChatCompletion.create(
-            model="deepseek-coder",
+            model="deepseek-chat",
             messages=messages,
             stream=False
         )
