@@ -31,7 +31,7 @@ python 3D_Gen.py --shape "hollow cylinder with radius 15mm, height 40mm, wall th
 
 ## Advanced Usage
 
-For researchers interested in evaluating RAG performance for 3D model generation, see the detailed [RAG Evaluation README](main/evaluation-readme.md) which documents the experimental setup used in our research.
+For researchers interested in evaluating RAG performance for 3D model generation, see the detailed [RAG Evaluation README](3D_Gen/evaluation-readme.md) which documents the experimental setup used in our research.
 
 ## Requirements
 
