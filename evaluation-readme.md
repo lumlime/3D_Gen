@@ -15,7 +15,7 @@ The evaluation system consists of:
 ### Prerequisites
 
 ```bash
-pip install openai numpy pandas matplotlib seaborn scipy sentence-transformers faiss-cpu beautifulsoup4 requests
+pip install openai requests beautifulsoup4 sentence-transformers faiss-cpu trimesh numpy numpy-stl pyglet manifold3d shapely pandas matplotlib seaborn
 ```
 
 ```bash
