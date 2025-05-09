@@ -236,7 +236,7 @@ def review_code(existing_code, context):
         {"role": "user", "content": review_prompt}
     ]
     response = openai.ChatCompletion.create(
-        model="deepseek-coder",
+        model="deepseek-chat",
         messages=messages,
         stream=False
     )
